@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: "Karla", sans-serif;
+}
+    
+.container {
+    display: block;
+    max-width: 600px;
+    margin: 100px auto 0 auto;
+    background-color: #1F2937;
+    padding: 100px 50px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+
+
+}
+span {
+    color: #3cc8a9
+}
+p {
+    color: #D5D4D8;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 0;
+
+}
+button {
+    background-color: #3cc8a9;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.line {
+    border-top: 1px solid #2F3E53;
+    margin: 20px 0;
+}
+.password-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+#password-container1, #password-container2 {
+    color: #55F991;
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;  
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #273549;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
